@@ -1,0 +1,26 @@
+main .variable, main .condition {
+  transform-style: preserve-3d;
+  margin-top: 3rem;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  main .variable img, main .condition img {
+    width: 100%;
+    height: 100vh; }
+main .slide {
+  display: block;
+  position: absolute; }
+main .btn-group {
+  margin: 0.5rem; }
+main .code, main .result {
+  border-radius: 10px; }
+main .back {
+  background-image: url(../img/fuck.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,39 @@
+main {
+    .variable, .condition {
+        transform-style: preserve-3d;
+        margin-top: 3rem;
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        //border: solid 1px red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 100%;
+            height: 100vh;
+        }
+        
+    }
+    .slide {
+        display: block;
+        position: absolute;
+      }
+    .btn-group {
+        margin: 0.5rem;
+    }
+    .code, .result {
+        border-radius: 10px;
+    }
+    .back {
+        background-image: url(../img/fuck.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-attachment: fixed;
+    }
+
+    // .condition {
+        
+    //     // margin:5rem 0;
+    // }
+}
